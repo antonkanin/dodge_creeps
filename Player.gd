@@ -8,7 +8,6 @@ var screen_size # size of the game window
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	print("Debug message")
 	screen_size = get_viewport_rect().size
 	hide() # hiding the player at the start
 
