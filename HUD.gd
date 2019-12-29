@@ -26,7 +26,6 @@ func show_game_over():
 func update_score(score):
 	$ScoreLabel.text = str(score)
 
-
 func _on_MessageTimer_timeout():
 	$MessageLabel.hide()
 
