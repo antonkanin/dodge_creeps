@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Elton_John_-_Sacrifice_Qoret.com.ogg-c87d54741e0e8122f099dc77910500a5.oggstr"
+
+[deps]
+
+source_file="res://music/Elton_John_-_Sacrifice_Qoret.com.ogg"
+dest_files=[ "res://.import/Elton_John_-_Sacrifice_Qoret.com.ogg-c87d54741e0e8122f099dc77910500a5.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

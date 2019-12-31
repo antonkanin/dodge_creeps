@@ -17,6 +17,7 @@ func show_message(text):
 	
 func show_game_over():
 	show_message("Game Over")
+	$EltonImage.visible = true
 	yield($MessageTimer, "timeout")
 	$MessageLabel.text = "Dodge the\nCreeps!"
 	$MessageLabel.show()

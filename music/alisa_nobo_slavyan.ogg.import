@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/alisa_nobo_slavyan.ogg-10ab33b09aa07933d0ecb3a8194bc075.oggstr"
+
+[deps]
+
+source_file="res://music/alisa_nobo_slavyan.ogg"
+dest_files=[ "res://.import/alisa_nobo_slavyan.ogg-10ab33b09aa07933d0ecb3a8194bc075.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

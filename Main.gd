@@ -4,7 +4,10 @@ export (PackedScene) var Mob
 var score
 
 func _ready():
-	randomize()
+#	randomize()
+	#AudioServer.set_bus_mute(0, true) # disable music for debug purposes
+	pass
+	
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
@@ -14,12 +17,15 @@ func game_over():
 	$ScoreTimer.stop()
 	$MobTimer.stop()
 	$HUD.show_game_over()
+	$Music.stop()
+	$DeathSound.play(10)
 
 func new_game():
 	score = 0
 	$HUD.update_score(score)
 	$HUD.show_message("Get Ready")
 	$Player.start($StartPosition.position)
+	$Music.play(22)
 	$StartTimer.start()
 
 func _on_ScoreTimer_timeout():
