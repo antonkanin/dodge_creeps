@@ -36,6 +36,7 @@ func _on_MobTimer_timeout():
 	
 	# create a mob instance and add it to the scene
 	var mob = Mob.instance()
+	
 	add_child(mob)
 	
 	# set the mob's direaction perpendicular to the path direction
